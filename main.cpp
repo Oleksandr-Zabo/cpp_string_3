@@ -43,7 +43,7 @@ void printMatrix(T** arr, int row, int col = 2) {
                 cout << static_cast<int>(arr[i][j]) << " "; // Print count as integer
             }
             else {
-                cout << arr[i][j] << " ";
+                cout << arr[i][j] << "   ---   ";
             }
         }
         cout << endl;
